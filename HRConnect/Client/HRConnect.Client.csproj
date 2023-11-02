@@ -1,0 +1,89 @@
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Pages\CRUD_AnagraficaSedi\**" />
+    <Compile Remove="Pages\CRUD_Benefits\**" />
+    <Compile Remove="Pages\CRUD_Contratti\**" />
+    <Compile Remove="Pages\CRUD_CreazioneColloquio\**" />
+    <Compile Remove="Pages\CRUD_DatiCandidatoSkills\**" />
+    <Compile Remove="Pages\CRUD_DatiCandidato\**" />
+    <Compile Remove="Pages\CRUD_Dipendente\**" />
+    <Compile Remove="Pages\CRUD_Documenti\**" />
+    <Compile Remove="Pages\CRUD_HardSkill\**" />
+    <Compile Remove="Pages\CRUD_LivelliContrattuali\**" />
+    <Compile Remove="Pages\CRUD_Mansioni\**" />
+    <Compile Remove="Pages\CRUD_SoftSkill\**" />
+    <Compile Remove="Pages\CRUD_TitoloDiStudio\**" />
+    <Content Remove="Pages\CRUD_AnagraficaSedi\**" />
+    <Content Remove="Pages\CRUD_Benefits\**" />
+    <Content Remove="Pages\CRUD_Contratti\**" />
+    <Content Remove="Pages\CRUD_CreazioneColloquio\**" />
+    <Content Remove="Pages\CRUD_DatiCandidatoSkills\**" />
+    <Content Remove="Pages\CRUD_DatiCandidato\**" />
+    <Content Remove="Pages\CRUD_Dipendente\**" />
+    <Content Remove="Pages\CRUD_Documenti\**" />
+    <Content Remove="Pages\CRUD_HardSkill\**" />
+    <Content Remove="Pages\CRUD_LivelliContrattuali\**" />
+    <Content Remove="Pages\CRUD_Mansioni\**" />
+    <Content Remove="Pages\CRUD_SoftSkill\**" />
+    <Content Remove="Pages\CRUD_TitoloDiStudio\**" />
+    <EmbeddedResource Remove="Pages\CRUD_AnagraficaSedi\**" />
+    <EmbeddedResource Remove="Pages\CRUD_Benefits\**" />
+    <EmbeddedResource Remove="Pages\CRUD_Contratti\**" />
+    <EmbeddedResource Remove="Pages\CRUD_CreazioneColloquio\**" />
+    <EmbeddedResource Remove="Pages\CRUD_DatiCandidatoSkills\**" />
+    <EmbeddedResource Remove="Pages\CRUD_DatiCandidato\**" />
+    <EmbeddedResource Remove="Pages\CRUD_Dipendente\**" />
+    <EmbeddedResource Remove="Pages\CRUD_Documenti\**" />
+    <EmbeddedResource Remove="Pages\CRUD_HardSkill\**" />
+    <EmbeddedResource Remove="Pages\CRUD_LivelliContrattuali\**" />
+    <EmbeddedResource Remove="Pages\CRUD_Mansioni\**" />
+    <EmbeddedResource Remove="Pages\CRUD_SoftSkill\**" />
+    <EmbeddedResource Remove="Pages\CRUD_TitoloDiStudio\**" />
+    <None Remove="Pages\CRUD_AnagraficaSedi\**" />
+    <None Remove="Pages\CRUD_Benefits\**" />
+    <None Remove="Pages\CRUD_Contratti\**" />
+    <None Remove="Pages\CRUD_CreazioneColloquio\**" />
+    <None Remove="Pages\CRUD_DatiCandidatoSkills\**" />
+    <None Remove="Pages\CRUD_DatiCandidato\**" />
+    <None Remove="Pages\CRUD_Dipendente\**" />
+    <None Remove="Pages\CRUD_Documenti\**" />
+    <None Remove="Pages\CRUD_HardSkill\**" />
+    <None Remove="Pages\CRUD_LivelliContrattuali\**" />
+    <None Remove="Pages\CRUD_Mansioni\**" />
+    <None Remove="Pages\CRUD_SoftSkill\**" />
+    <None Remove="Pages\CRUD_TitoloDiStudio\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Pages\Dipendente.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.10" PrivateAssets="all" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Shared\HRConnect.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Pages\Dipendente.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Pages\Dipendente.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Pages\Dipendente.razor" />
+  </ItemGroup>
+
+</Project>
